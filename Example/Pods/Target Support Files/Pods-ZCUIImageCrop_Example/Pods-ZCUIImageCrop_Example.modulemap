@@ -1,0 +1,6 @@
+framework module Pods_ZCUIImageCrop_Example {
+  umbrella header "Pods-ZCUIImageCrop_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
