@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZCUIImageCrop_Example' do
+  pod 'ZCUIImageCrop', :path => '../'
+
+  target 'ZCUIImageCrop_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
